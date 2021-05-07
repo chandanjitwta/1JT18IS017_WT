@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <style>
+        table,
+        tr,
+        td {
+            border: solid black;
+            width: 33%;
+            text-align: center;
+            border-collapse: collapse;
+            background-color: lightblue;
+        }
+
+        table {
+            margin: auto;
+        }
+        
+        #text{
+            text-align: center; 
+            font-style: italic;
+
+        }
+
+
+
+    </style>
+    </head>
+        <body>
+        <table>
+            <td style=" font-weight: bold;"> NUMBERS FROM 0 T0 10 WITH THEIR SQUARES AND CUBE</td>
+        </table>
+            
+        
+
+    <script>
+
+        document.write("<table><tr ><thcolspan='3' align='center'> </th></tr>");
+        document.write("<tr><td>Number</td><td>Square</td><td>Cube</td></tr>");
+        
+        //FOR TEST CASE ONE --------> for (var i = 0; i <= 10; i++) { CODE}
+        //FOR TEST CASE TW0 --------> for (var i = 10; i <= 100; i+=10) { CODE}
+        //FOR TEST CASE THREE ------> for (var i = 100; i <= 1000; i+=100) { CODE}
+        // HERE I AM USING FOR TEST CASE ONE !!!!
+        for (var i = 0; i <= 10; i++) {
+            document.write("<tr><td>" + i + "</td><td>" + i * i + "</td><td>" + i * i * i + "</td></tr>");
+
+        }
+        document.write("</table>");
+
+
+        setInterval(function () {
+            var txt = document.getElementById("text");
+
+            
+            txt.style.color = "#2c3e50";
+            // txt.style.font = "italic"
+            txt.style.display = (txt.style.display == 'none' ? '' : 'none');
+
+
+        }, 600);
+
+    </script>
+
+    <h2 id="text">Assignment-2 Challenge Completed ! !&#128516; </h2>
+            
+    </body>
+        
+
+
+</html>
