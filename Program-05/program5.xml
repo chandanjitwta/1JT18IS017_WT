@@ -1,0 +1,35 @@
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<h1 > STUDENTS DESCRIPTION </h1>
+ </head>
+
+<students>
+<student>
+<USN>USN : 1JT18IS017</USN>
+<name>NAME : CHANDAN J </name>
+<college>COLLEGE : JIT</college>
+<branch>BRANCH : Information Science and Engineering</branch>
+<year>YEAR : 2018</year>
+<e-mail>E-Mail : chandu.cj8055@gmail.com</e-mail>
+</student>
+<student>
+<USN> USN : 1JT18IS031</USN>
+<name>Name : LATHA D</name>
+<college>COLLEGE : JIT</college>
+<branch>BRANCH : Information Science and Engineering</branch>
+<year>YEAR : 2018</year>
+<e-mail>E-Mail : latha1504@gmail.com</e-mail>
+</student>
+<student>
+<USN>USN : 1JT18IS032 </USN>
+<name>NAME : LOKANATH S </name>
+<college>COLLEGE : JIT</college>
+<branch>BRANCH : Information Science and Engineering</branch>
+<year>YEAR : 2018</year>
+<e-mail>E-Mail : lokanath1912	@gmail.com</e-mail>
+</student>
+</students>
+</html>
